@@ -1,0 +1,35 @@
+{
+  "name": "device-detect-app",
+  "version": "1.0.0",
+  "description": "A sample app using device-detect",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MrMadClown/device-detect-app.git"
+  },
+  "keywords": [
+    "device-detect"
+  ],
+  "author": "MrMadClown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrMadClown/device-detect-app/issues"
+  },
+  "homepage": "https://github.com/MrMadClown/device-detect-app#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "device-detect": "file:../device-detect",
+    "webpack": "^4.41.2"
+  }
+}
