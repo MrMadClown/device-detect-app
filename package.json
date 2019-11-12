@@ -1,7 +1,7 @@
 {
   "name": "device-detect-app",
   "version": "1.0.0",
-  "description": "A sample app using device-detect",
+  "description": "A sample app for testing the device-detect library locally",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -29,7 +29,7 @@
     "@babel/preset-env": "^7.7.1",
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
-    "device-detect": "file:../device-detect",
+    "device-detect": "git+https://github.com/MrMadClown/device-detect.git"
     "webpack": "^4.41.2"
   }
 }
